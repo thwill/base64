@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?import javafx.scene.control.Button?><?import javafx.scene.control.TextArea?><?import javafx.scene.image.ImageView?><?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="de.twissow.base64.controller.MainController">
+    <children>
+        <ImageView fx:id="imageView"/>
+        <TextArea fx:id="textArea"/>
+        <Button fx:id="buttonResetImage" onAction="#resetImage" text="reset image"/>
+        <Button fx:id="buttonLoadImage" onAction="#loadImage" text="load image"/>
+        <Button fx:id="buttonEncode" onAction="#encode" text="encode image"/>
+        <Button fx:id="buttonResetText" onAction="#resetText" text="reset text"/>
+        <Button fx:id="buttonPasteText" onAction="#pasteText" text="paste text"/>
+        <Button fx:id="buttonCopyText" onAction="#copyText" text="copy text"/>
+        <Button fx:id="buttonDecode" onAction="#decode" text="decode text"/>
+    </children>
+</AnchorPane>
